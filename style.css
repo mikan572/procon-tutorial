@@ -1,0 +1,53 @@
+h2 {
+  color:orange;
+  font-size: 2rem;
+}
+header{
+ color: orange;
+ font-size: 2rem; 
+
+}
+header {
+ font-display: flex;
+ justify-content: start;
+ border-bottom: 3px dotted darkorange;
+ background-color: rgb(254, 248, 217);
+}
+img {
+  height: 7rem;
+}
+header div{
+  display: flex;
+  align-items: center;
+  width: 90%;
+}
+p{
+  font-size: 20px;
+}
+li{
+  font-size: 20px;
+}
+body{
+  background-color: rgb(255, 252, 240);
+}
+td, th{
+  border: thick double #ce8532; 
+  padding: 0.5rem;
+}
+table{
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+th{
+  background-color: #facb95;
+}
+body{
+  width: 90%;
+  min-width: 300px;    /* 最小の幅を300pxにする */
+  max-width: 800px;    /* 最大の幅を800pxにする */
+  margin: 0 auto;
+}
+
+
+
